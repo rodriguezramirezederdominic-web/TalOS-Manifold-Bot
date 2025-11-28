@@ -1,4 +1,4 @@
-alOS (Targeted Algorithmic Logic Operating System)
+TalOS (Targeted Algorithmic Logic Operating System)
 
 TalOS is a specialized prediction market agent designed to trade exclusively on markets created by Manifold user MikhailTal.
 
@@ -35,5 +35,6 @@ This repository improves on the base manifoldbot pattern in several ways:
 Modular Intelligence: Separates the trading loop (tal_bot.py) from the decision logic (brain.py) and the financial logic (kelly.py).
 
 Creator Targeting: Implements specific API filtering to target a single creator ID.
+
 
 Dynamic Sizing: Replaces static bet amounts with Kelly Criterion math.
